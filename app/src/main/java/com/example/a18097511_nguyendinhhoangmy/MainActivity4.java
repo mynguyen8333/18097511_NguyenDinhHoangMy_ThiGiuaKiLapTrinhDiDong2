@@ -66,7 +66,6 @@ public class MainActivity4 extends AppCompatActivity {
                 if(isServiceConnected){
                     mMyServiceClass.setMusic(x);
                     mMyServiceClass.play();
-                    Toast.makeText(MainActivity4.this, "Play music", Toast.LENGTH_SHORT).show();
                     if(mMyServiceClass.getMp().isPlaying()){
 
                         progressBar.post(mUpdateProgress);
