@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4145FA5"
+    app:layoutDescription="@xml/activity_main2_scene"
+    tools:context=".MainActivity2">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="114dp"
+        android:layout_height="27dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="627dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="182dp"
+        android:layout_height="170dp"
+        app:srcCompat="@drawable/ed"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/heart"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/download"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="51dp"
+        android:layout_height="56dp"
+        app:srcCompat="@drawable/share"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ed Sheeran "
+        android:textColor="#80FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHAPE OF YOU"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="275dp"
+        android:layout_height="21dp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <TextView
+        android:id="@+id/txtbd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0:00"
+        android:textColor="#80FFFFFF"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <TextView
+        android:id="@+id/txtkt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0:00"
+        android:textColor="#80FFFFFF"
+        tools:layout_editor_absoluteX="334dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/previous"
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="545dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/skip_next"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="545dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/repeat_one"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="545dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/shuffle"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="545dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#D4145FA5"
+        app:srcCompat="@drawable/play_arrow"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="545dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
