@@ -68,7 +68,7 @@ public class MainActivity4 extends AppCompatActivity {
                     mMyServiceClass.play();
                     Toast.makeText(MainActivity4.this, "Play music", Toast.LENGTH_SHORT).show();
                     if(mMyServiceClass.getMp().isPlaying()){
-                        //totalTime = mMyServiceClass.getMp().getDuration();
+
                         progressBar.post(mUpdateProgress);
                         txtbd.post(mUpdateTime);
                     }
