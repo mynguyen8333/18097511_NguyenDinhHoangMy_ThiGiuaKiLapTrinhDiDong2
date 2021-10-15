@@ -17,9 +17,8 @@ import android.widget.Toast;
 public class MainActivity4 extends AppCompatActivity {
     ImageButton btnplay;
 
-    int count = 0;
     int totalTime = 0;
-    TextView txtbd,txtkt;
+    TextView txtbd;
     ProgressBar progressBar;
 
     boolean i =false;
@@ -115,18 +114,13 @@ public class MainActivity4 extends AppCompatActivity {
 
     public  String milliSecondsToTimer(long milliseconds) {
         String finalTimerString = "";
-        String secondsString = "";
-
-        // Convert total duration into time
         int hours = (int) (milliseconds / (1000 * 60 * 60));
         int minutes = (int) (milliseconds % (1000 * 60 * 60)) / (1000 * 60);
         int seconds = (int) ((milliseconds % (1000 * 60 * 60)) % (1000 * 60) / 1000);
-        // Add hours if there
+
         if (hours > 0) finalTimerString += (hours > 9 ? hours : "0" + hours) + ":";
         finalTimerString += (minutes > 9 ? minutes : "0" + minutes) + ":";
         finalTimerString += (seconds > 9 ? seconds : "0" + seconds);
-
-        // return timer string
         return finalTimerString;
     }
 
